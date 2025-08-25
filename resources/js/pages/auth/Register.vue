@@ -60,10 +60,9 @@ import { LoaderCircle } from 'lucide-vue-next';
                     <div class="bg-gray-200 rounded-lg p-4 flex justify-center">
                         <Button
                             type="submit"
-                            class="w-full mt-2 bg-gray-600 text-white transition-none cursor-pointer"
+                            class="w-full mt-2 bg-gray-600 text-white transition-none hover:bg-gray-600 hover:text-white cursor-pointer"
                             tabindex="5"
                             :disabled="processing"
-                            style="background-color: #4B5563 !important; color: #fff !important;"
                         >
                             <LoaderCircle v-if="processing" class="w-4 h-4 animate-spin" />
                             Create account
